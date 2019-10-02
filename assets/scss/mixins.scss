@@ -1,0 +1,95 @@
+@import "variables";
+@mixin margin_for_sections {
+	margin-top: 125px;
+}
+@mixin navigation_lists__styles {
+	list-style: none;
+	display: inline-flex;
+	margin: 0;
+	padding: 0;
+}
+@mixin navigation_link__styles {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom: 1px solid transparent;
+}
+@mixin navigation_link__hover {
+	color: $company-color;
+	border-color: $company-color;
+}
+
+@mixin presentation__blocks {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px 15px 30px;
+	border: 1px solid #8f8e91;
+	width: 360px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+@mixin section_titles {
+	font-family: Roboto;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 36px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-align: center;
+}
+@mixin inscription_name_styles {
+	margin: 0 0 10px;
+	color: #fffcf4;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: bold;
+}
+@mixin inscription_position_styles {
+	margin: 0;
+	color: #fffcf4;
+	font-family: "Roboto";
+	font-size: 14px;
+}
+@mixin pricing_plan-style {
+	border-color: $company-color;
+	background-color: $company-color; 
+	color: #fffcf4;
+}
+@mixin buttons_style {
+	border: none;
+	cursor: pointer;
+	background-color: $company-color;
+	color: #fffcf4;
+	font-family: "Roboto";
+	
+}
+@mixin btns_position {
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+@mixin placeholder_styles {
+	color: #fffcf4;
+    font-family: "Roboto";
+	font-size: 24px;
+	padding-left: 30px;
+}
+@mixin input_styles {
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	color: #fffcf4;
+	font-size: 24px;
+	font-family: "Roboto";
+}
+@mixin footer_title-styles {
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 18px;
+}
+@mixin backgroundIMG_styles {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
